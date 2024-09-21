@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:backgroundTint="#BCA1A1"
+    android:orientation="vertical"
+    tools:context=".Tela2">
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#1E8BDD"
+        android:text="Consultar"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnInserir"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#1E8BDD"
+        android:onClick="inserir"
+        android:text="INSERIR"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnAlterar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#1E8BDD"
+        android:text="ALTERAR"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnDeletar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#1E8BDD"
+        android:text="DELETAR"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#FFC107"
+        android:onClick="sair"
+        android:text="SAIR"
+        android:textColor="#000000" />
+</LinearLayout>

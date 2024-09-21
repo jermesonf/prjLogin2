@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BC0B0B"
+    android:backgroundTint="#28476A6A"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Inserir">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#EAD5D5"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="TELA DE CADASTRO"
+        android:textColor="#FF0000"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/tNomeInserir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Digite o nome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/tSenhaInserir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Digite a senha"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FC3B97FA"
+        android:onClick="salvar"
+        android:text="SALVAR"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
